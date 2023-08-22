@@ -22,7 +22,7 @@ class InfoAndData {
     
     static func episodeNumberFormater(episode: String) -> String {
         let arr = Array(episode)
-        return "Season: \(Int(String(arr[1...2]))!), Episode: \(Int(String(arr[4...5]))!)"
+        return "Episode: \(Int(String(arr[4...5]))!), Season: \(Int(String(arr[1...2]))!)"
     }
 }
 
